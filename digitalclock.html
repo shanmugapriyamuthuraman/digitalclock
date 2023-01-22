@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box1">
+			<div class="box2">
+			<div class="box3">
+				<h1>DATE</h1>
+				<h1>MONTH</h1>
+				<h1>YEAR</h1>
+			</div>
+			<div id="Date">
+				<h1 id="date"></h1>
+				<h1 id="Month"></h1>
+				<h1 id="Year"></h1>
+			</div>
+			<div class="box3">
+				<h1>HOURS</h1>
+				<h1>MINITUES</h1>
+				<h1>SECONDS</h1>
+			</div>
+			<div id="Date">
+				<h1 id="hours"></h1>
+				<h1 id="minute"></h1>
+				<h1 id="second"></h1>
+			</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<script>
+		const date=new Date()
+		date1=date.getDate();
+		document.getElementById("date").innerHTML=date1
+		Month=date.getMonth();
+		document.getElementById("Month").innerHTML=Month+1
+		Year=date.getFullYear();
+		document.getElementById("Year").innerHTML=Year
+		Hours=date.getHours();
+		document.getElementById("hours").innerHTML=Hours
+		Minute=date.getMinutes();
+		document.getElementById("minute").innerHTML=Minute
+		const time=new Date()
+		Second=time.getSeconds();
+		console.log(time)
+		document.getElementById("second").innerHTML=Second
+	</script>
+</body>
+</html>	
