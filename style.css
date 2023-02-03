@@ -8,7 +8,7 @@
 }
 .box1{
 	background-color:black;
-	height:85vh;
+	height:100vh;
 	width:70%;
 	margin:auto;
 	padding-top:4rem;
@@ -16,7 +16,7 @@
 }
 .box2{
 	border:5px solid white;
-	height:75vh;
+	height:90vh;
 	width:85%;
 	margin:auto;
 }
@@ -49,4 +49,69 @@
 .box4 h1{
 	color:white;
 	padding:2rem;
+}
+#time{
+	display:flex;
+	padding:1rem;
+	gap:10px;
+}
+#Day{
+	display:flex;
+	padding:1rem;
+	gap:10px;
+}
+#am{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#pm{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#sun{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+	padding:0.2rem;
+}
+#mon{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#tues{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#wed{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#thus{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#fri{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
+}
+#sat{
+	border:2px solid white;
+	border-radius:50%;
+	width:3%;
+	height:3vh;
 }
